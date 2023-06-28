@@ -1,0 +1,219 @@
+
+
+body{
+  background-color: #efefef;
+  background-image: url("Homepage Pictures/blueClouds.jpg");
+  background-repeat: repeat;
+}
+
+body a, p, h1, h2, h3{
+  font-family: 'Secular One', sans-serif;
+  text-decoration: none;
+}
+
+.body a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/*.pictureLink a:link a:visited a:hover a:active {
+  text-decoration: none;
+  color: aliceblue;
+}*/
+.navbar{
+  
+  background-color: #9fd8d1;
+}
+.navbar a{
+  color: #313131;
+  font-family: 'Righteous', cursive;
+}
+
+.navbar a:hover{
+  color:  #f4f1ea;
+}
+
+.col-sm-4{
+  color: #1a1a1a;
+  font-size: small;
+  
+  
+}
+
+
+.col-sm-8{
+  color: #1a1a1a;
+  font-size: small;
+  
+  
+}
+
+
+/* #383838*/
+
+.container-fluid h3,p{
+  font-family: 'Secular One', sans-serif;
+}
+/*.carousel .item {
+    height: 50px;
+    
+  }*/
+
+  .carousel-item p, h5{
+  background-color: #1a1a1a81;
+  
+  }
+  .carousel-item h5{
+    font-size:xx-large;
+  }
+  .movingPic{
+    height: 600px;
+    padding: 20px;
+  }
+
+  .bioPic{ 
+    height: 250px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: block;
+  }
+
+  footer {
+    background-color: #9fd8d1;
+    color:#313131;
+    padding: 15px;
+  }
+
+  .projects{
+    width: 100%;
+    height: 50%;
+  }
+
+  .card-body {
+    min-height: 300px;
+    min-width: 300px;
+    margin-right: 5px;
+}
+
+.container {
+  display: flex;
+  overflow-x: auto;
+  
+}
+
+.container img {
+  margin-right: 15px;
+}
+
+.projectPage h1{
+  text-align: center;
+  font-size:50px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.projectPage a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  
+}
+.projectPage a{
+  color: rgb(41, 41, 41);
+}
+
+.projectPage img{
+  max-width: 900px;  max-height: 450px; margin: auto; padding: 20px; display: block; 
+}
+
+.headinPic {
+  max-width: 50px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.headingPic img{
+  max-width: 55%;
+  height: auto;
+  display: flex;
+  margin: auto;
+  padding: 20px;
+}
+
+/*.headingPic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}*/
+
+.headingPic iframe {
+  width: 60%;
+  height: 75vh;
+  margin: auto;
+  display: block;
+}
+
+
+.col h1{
+  font-family: 'Secular One', sans-serif;
+  text-decoration: none;
+}
+
+.row {
+  font-family: 'Secular One', sans-serif;
+  text-decoration: none;
+  margin: 20px;
+  background-color: #f0e9dfd0;
+}
+
+.card-body a{
+color: #894971;
+font-size:medium;
+}
+.card-body h1{
+  font-size: large;
+}
+
+.card-body h2{
+  color: #894971;
+  font-size: x-large;
+  margin: auto;
+}
+
+.card-body h3{
+  font-size: larger;
+  margin: auto;
+  color: #6CA6C9;
+}
+
+
+.card-wrapper {
+  flex-basis: calc(20% - 10px); /* Adjust the width based on the number of cards you want per row */
+  margin-right: 10px;
+}
+
+.icons{
+  
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.icons img{
+  
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.icons a{
+  filter:grayscale(100%);
+}
+
+.icons a :hover{
+  filter:invert(100%)
+}
