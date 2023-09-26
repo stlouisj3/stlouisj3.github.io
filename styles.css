@@ -1,20 +1,6 @@
 
 
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-header, main {
-  /* Add your styles here */
-  flex-grow: 1; /* Allow content to grow and fill available space */
-}
- Create a flex container to hold header, main, and footer 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;  Ensure the container takes at least the full viewport height 
-}
+
 
 
 body{
@@ -84,6 +70,10 @@ body a, p, h1, h2, h3{
   }
   .button-top-right{
     font-size: small;
+  }
+
+  .card-wrapper{
+    height: 40%;
   }
 }
 
