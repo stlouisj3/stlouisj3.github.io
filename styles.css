@@ -79,7 +79,7 @@ body a, p, h1, h2, h3{
     height: 500px;
   }
 
-  footer{
+  .navbar{
     background-color: brown;
   }
 }
