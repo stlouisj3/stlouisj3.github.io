@@ -84,6 +84,7 @@ body a, p, h1, h2, h3{
     background-color: #9fd8d1;
     color:#313131;
     padding: 15px;
+    margin-top: auto;
   }
 
   .projects{
