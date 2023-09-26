@@ -65,9 +65,9 @@ body a, p, h1, h2, h3{
   .col-sm-8{
     font-size: x-large;   
   }
-  .card-wrapper{
+  /*.card-wrapper{
     flex: 1;
-  }
+  }*/
 }
 
 .container-fluid h3,p{
