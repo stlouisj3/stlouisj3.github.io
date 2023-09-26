@@ -21,8 +21,8 @@ body a, p, h1, h2, h3{
   color: aliceblue;
 }*/
 .navbar{
-  
-  background-color: #9fd8d1;
+  background-color: #9500ff;
+  /*background-color: #9fd8d1;*/
 }
 .navbar a{
   color: #313131;
@@ -54,6 +54,16 @@ body a, p, h1, h2, h3{
 @media (max-width: 1100px) {
   .carousel-item p {
       display: none;
+  }
+}
+
+@media (min-width: 3000px){
+  .col-sm-4{
+    font-size: large;   
+  }
+
+  .col-sm-8{
+    font-size: large;   
   }
 }
 
