@@ -5,7 +5,10 @@ html, body {
   padding: 0;
   height: 100%;
 }
-
+header, main {
+  /* Add your styles here */
+  flex-grow: 1; /* Allow content to grow and fill available space */
+}
  Create a flex container to hold header, main, and footer 
 .wrapper {
   display: flex;
