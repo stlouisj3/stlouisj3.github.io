@@ -75,11 +75,6 @@ body a, p, h1, h2, h3{
 
 @media (min-height: 750px){
 
-  
-
-  .navbar{
-    background-color: brown;
-  }
 
   footer{
     margin-top:300px;
