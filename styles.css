@@ -122,6 +122,7 @@ body a, p, h1, h2, h3{
   }
 
   footer {
+    flex: auto;
     background-color: #9fd8d1;
     color:#313131;
     padding: 15px;
