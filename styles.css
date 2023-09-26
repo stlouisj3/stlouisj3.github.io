@@ -119,6 +119,11 @@ body a, p, h1, h2, h3{
   margin-right: 15px;
 }
 
+.projectBoarder{
+  background-color: #f0e9dfd0;
+  margin: 20px;
+}
+
 .projectPage h1{
   text-align: center;
   font-size:50px;
@@ -132,6 +137,7 @@ body a, p, h1, h2, h3{
 }
 .projectPage a{
   color: rgb(41, 41, 41);
+ 
 }
 
 .projectPage img{
@@ -181,6 +187,10 @@ body a, p, h1, h2, h3{
   background-color: #f0e9dfd0;
 }
 
+.card-body{
+  height: 350px;
+}
+
 .card-body a{
 color: #894971;
 font-size:medium;
@@ -205,6 +215,7 @@ font-size:medium;
 .card-wrapper {
   flex-basis: calc(20% - 10px); /* Adjust the width based on the number of cards you want per row */
   margin-right: 10px;
+  
 }
 
 .icons{
