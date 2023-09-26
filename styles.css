@@ -75,8 +75,8 @@ body a, p, h1, h2, h3{
 
 @media (min-height: 750px){
 
-  .card-body{
-    height: 750px;
+  .row{
+    height: 1000px;
   }
 
   .navbar{
