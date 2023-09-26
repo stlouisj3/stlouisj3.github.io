@@ -71,9 +71,12 @@ body a, p, h1, h2, h3{
   .button-top-right{
     font-size: small;
   }
+}
 
-  .card-wrapper{
-    height: 40%;
+@media (min-height: 1000px){
+
+  .card-body{
+    height: 500px;
   }
 }
 
