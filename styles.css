@@ -73,10 +73,14 @@ body a, p, h1, h2, h3{
   }
 }
 
-@media (min-height: 1000px){
+@media (min-height: 750px){
 
   .card-body{
     height: 500px;
+  }
+
+  footer{
+    background-color: brown;
   }
 }
 
