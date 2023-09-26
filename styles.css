@@ -75,7 +75,7 @@ body a, p, h1, h2, h3{
 
 @media (min-height: 750px){
 
-  .row{
+  .card-body{
     height: 1000px;
   }
 
