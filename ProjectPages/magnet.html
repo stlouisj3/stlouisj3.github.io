@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&family=Secular+One&display=swap" rel="stylesheet">
+<head>
+  <title>Joey St.Louis / Lucidus</title>
+  <link rel="icon" type="image/png" href="../Homepage Pictures/myLogo.jpg"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<!--This is start of header needed for every page ms-auto bg-dark navbar-dark-->
+<nav class="navbar navbar-expand-sm">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">Joe St. Louis III</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link" href="../projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../about.html">About</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="../resume.html">Resume</a>
+          </li> 
+              
+      </ul>
+      <div class="icons">
+        <a href = "https://github.com/stlouisj3" target="_blank"><img src="../Icons/gitIcon.png"></img></a>
+        <a href = "https://stlouisj3.itch.io/" target="_blank"><img src="../Icons/itchIcon.png"></img></a>
+        <a href = "https://www.linkedin.com/in/joseph-st-louis-iii-94377a230/" target="_blank"><img src="../Icons/linkIcon.png"></img></a>
+      </div>      
+    </div>    
+  </div>
+</nav>
+
+<div class="projectBoarder">
+    <div class = "projectPage">
+    <h1><a href="https://stlouisj3.itch.io/mag-net" target="_blank">The Mag-Net</a></h1>
+</div>
+
+
+
+<div class="headingPic">
+    <img src="../ProjectPictures/magnet.PNG" class="img-responsive">
+</div>
+
+<div class="row" style="margin: 20px;  background-color: #ffffff00;">
+    
+    <div class = "col-sm-8">
+        <h1>About The Game</h1>
+        <p>This started as an independent study about learning how to create an online game in unity. It started as a first person shooter and that is what it turned out to be by the end of the semester. However the game was not polished and was not interesting so for a game jam some of my friends and I built on the game adding the mechanic of pushing and pulling others players and making the game look like an actual game instead of a prototype. The game is built using  Photon Fusion’s networking solution. This made the process a lot easier than networking for game objects since the built in compliments photon created such as networked colliders and rigid bodies. 
+
+        </p>
+        </div>
+        <div class = "col-sm-4">
+         <img src="../ProjectPictures/magnet2.PNG" style=" width: 100%;">
+         <p></p>
+        </div>
+</div>
+
+<div class="row" style="margin: 20px;  background-color: #ffffff00;">
+    
+    <div class = "col-sm-4">
+         <img src="../ProjectPictures/magnet3.PNG" style="width: 100%;">
+         <p>
+         </p>
+        </div>
+        <div class = "col-sm-8">
+            <h1>What I Worked On</h1>
+    <p>For the most part this was a solo project, I created all the code for the project, I started with creating a player prefab that allowed each client to control their own player and camera and then be able to shoot other players. I created the lobby system as well, so each client can create their own room or join other players' rooms. Then later when I revised the game for the game jam, I created the teleport mechanic along with being able to push and pull other players off the map. Finally I created the post processing for the game.  
+    </p>
+        </div>
+</div>
+        <div class="row" style="margin: 20px;  background-color: #ffffff00;">
+    
+            <div class = "col-sm-8">
+                <h1>What I learned</h1>
+                <p>I learned a lot through this process, the biggest was the realization of how much goes into creating a multiplayer game, it takes over 10 times the amount of work than a single player game. Other than that it was just learning about how networking works with game development, having to constantly send information from client to server back to other clients. Understanding that you must constantly check that the correct client is able to use input. I had a bug early on where each client could control the others camera but it was because I did not disable the other clients camera and had to do a check if the camera had input authority. I learned how to use rpc’s and when to use them, at first I didn;t entirely understand them because photon uses networked rigid bodies which makes rpc’s for movement not needed so I was just using them to send join and leaving information but I asked my professor and he explained how rpc’s are typically used for everything that needs to be sent to the server for other clients to see or react.</p>
+                </div>
+                <div class = "col-sm-4">
+                 <img src="../ProjectPictures/magnet4.PNG" style="width: 100%;">
+                 <p>
+                 </p>
+                </div>
+        </div>
+  </div>      
+
+<footer class="container-fluid text-center">
+    <p>Contact Me: </p>
+    <p>Email: stlouisj3@yahoo.com</p>
+    <p>Linkedin: Joseph St. Louis III </p>
+  </footer>
+
+</body>
+</html>
